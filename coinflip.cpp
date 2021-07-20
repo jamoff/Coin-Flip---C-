@@ -82,7 +82,7 @@ determinant(player,computer);
 
 
 string response = "";
-cout << "Would you like to play again?" << endl;
+cout << "Would you like to play again? (Y/N)" << endl;
 cin >> response;
 
 while (response != "Y" && response != "y" && response != "N" && response != "n") {
@@ -111,7 +111,7 @@ int computer = computerInput();
 determinant(player,computer);
 
 string response = "";
-cout << "Would you like to play again?" << endl;
+cout << "Would you like to play again? (Y/N)" << endl;
 cin >> response;
 
 
